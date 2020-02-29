@@ -1,7 +1,3 @@
-# Note: you may need to update your version of future
-# sudo pip install -U future
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import beta

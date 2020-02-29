@@ -7,6 +7,7 @@ true_ctr = 0.5
 a, b = 1, 1  # beta priors
 plot_indices = (10, 20, 30, 50, 100, 200, 500)
 data = np.empty(T)
+
 for i in range(T):
   x = 1 if np.random.random() < true_ctr else 0
   data[i] = x
